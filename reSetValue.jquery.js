@@ -7,7 +7,8 @@
  * 
  * What: Resets an input or an textarea when focused. If not filled 
  * with a new value, it resets to default. If an input is empty 
- * by default, nothing will happen.  
+ * by default, nothing will happen. Works much like the HTML5 input 
+ * placeholder param.
  * 
  * How-to: $('input, textarea').reSetValue();
  *
