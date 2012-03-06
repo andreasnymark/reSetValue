@@ -4,7 +4,7 @@
 **
 */
 (function($){ 
-  jQuery.fn.reSetValue = function() {
+  $.fn.reSetValue = function() {
     return this.each(function() { 
       var el = $(this);  
       var defVal = el.val();
